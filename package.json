@@ -1,0 +1,39 @@
+{
+  "name": "beginner-javascript",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config from Wes Bos",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-spire/beginner-javascript.git"
+  },
+  "author": "Matthew Spire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew-spire/beginner-javascript/issues"
+  },
+  "homepage": "https://github.com/matthew-spire/beginner-javascript#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  }
+}
